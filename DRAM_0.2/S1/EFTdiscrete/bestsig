@@ -1,0 +1,17 @@
+At Run #                   18197
+** % 1st Accept. =      2.97     ** % 2nd Accept. =    60.40
+          Best LogL =       2.654E+03
+    Best weighted SSqE =    3.644E+03
+                 y×ráRx¬@   3.644E+03
+                 y×ráRx¬@   3.644E+03
+                 y×ráRx¬@   3.644E+03
+*** LogL:    New   2.614E+03     Curr   2.650E+03     Best   2.654E+03
+                  sigmabest              sigmamean 
+     sigmaTIN              1.201E-01            1.194E-01
+     sigmaCHL              8.623E-02            8.724E-02
+     sigmaNPP              4.173E-01            4.156E-01
+     sigmaP10              3.244E-01            3.023E-01
+     sigmaP03              1.997E-01            1.941E-01
+     sigmaP01              1.572E-01            1.580E-01
+     sigmaP_1              2.784E-01            2.751E-01
+

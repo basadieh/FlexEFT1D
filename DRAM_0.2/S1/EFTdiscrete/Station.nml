@@ -1,0 +1,25 @@
+&station
+  Stn='S1',
+  Model_ID = 1,
+  nutrient_uptake= 2,
+  grazing_formulation = 3,
+/
+
+! Model_ID:
+!  EFTdiscrete = 1,        &
+!  EFTcont     = 2,        &
+!  Geiderdisc  = 3,        &
+!  Geidercont  = 4,        &
+!  EFTsimple   = 5,        &
+!  Geidersimple= 6
+
+
+
+&MCMCrun
+   nruns   = 100,
+   BurnInt = 1E+3, ! number of runs for initial 'Burn-in'
+   EnsLen  = 2, 
+   NDays   = 1080,
+   Readfile= 1,
+   NR_enspar=18096,
+/

@@ -1,0 +1,12 @@
+mu0    <- expression(paste(italic(µ)[0]))
+alphaI <- expression(paste(italic(alpha)[I]))
+Q0N    <- expression(paste(italic(Q)[paste(0,'N',sep='')]))
+V0N    <- expression(paste(italic(V)[paste(0,'N',sep='')]))
+A0N    <- expression(paste(italic(A)[paste(0,'N',sep='')]))
+KN     <- expression(paste(italic(K)[N]))
+Gm     <- expression(paste(italic(G)[m]))
+Kp     <- expression(paste(italic(K)[p]))
+Wdet   <- expression(paste(italic(W)[d]))
+Rdn    <- expression(paste(italic(R)[dn]))
+mz     <- expression(paste(italic(m)[z]))
+

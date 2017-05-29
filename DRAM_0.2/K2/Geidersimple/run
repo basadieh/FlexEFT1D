@@ -1,0 +1,25 @@
+#!/bin/bash
+export DATADIR=../../../K2
+export SCRATCHDIR=./
+export SRCDIR=../../src
+Test=0 
+
+/bin/cp -f  ${SRCDIR}/*.f90    $SCRATCHDIR
+/bin/cp -f  ${SRCDIR}/*.f      $SCRATCHDIR
+/bin/cp -f  ${SRCDIR}/Makefile $SCRATCHDIR/Makefile1
+/bin/cp -f ${DATADIR}/*.dat    $SCRATCHDIR
+rm -rf *.o *.mod
+export MAKEFILE=./Makefile1
+if [[ $Test == 1 ]]; then
+   echo 'Run model with debug options...'
+   FFLAGS="-O0 -r8 -i4 -g -check all -fpe0 -warn -traceback -debug extended"
+else
+   FFLAGS="-O3 -r8 -i4"
+   echo 'Run model without debug options...'
+fi
+echo 's?$(FFLAGS)?'$FFLAGS'?g' >> flags.tmp
+sed -f flags.tmp $MAKEFILE > Makefile
+make DRAM
+rm -rf flags.tmp
+mv DRAM K2Geidersimple
+

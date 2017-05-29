@@ -1,0 +1,13 @@
+#!/bin/bash
+export DATADIR=../../../HOT
+export SCRATCHDIR=./
+export SRCDIR=../../src
+
+
+/bin/cp -f  ${SRCDIR}/*.f90    $SCRATCHDIR
+/bin/cp -f  ${SRCDIR}/*.f      $SCRATCHDIR
+/bin/cp -f  ${SRCDIR}/Makefile $SCRATCHDIR
+/bin/cp -f ${DATADIR}/*.dat    $SCRATCHDIR
+#cd $SCRATCHDIR
+make DRAM
+mv DRAM HOTGeidersimple

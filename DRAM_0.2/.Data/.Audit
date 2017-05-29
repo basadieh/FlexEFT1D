@@ -1,0 +1,467 @@
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Thu Sep 17 19:54:45 2009
+#~
+enspar = read.table("out/enspar", header = T)
+#~
+names(enspar)
+#~
+cor(enspar$theta1, enspar$theta2)
+#~
+0.857^2
+#~
+3.^2/(0.17 * 33000.)
+#~
+#~
+q()
+#~End session: Time: 1253245313; Process: 26847
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Fri Sep 18 13:24:20 2009
+#~
+#~error: statement with syntax error
+#~error: Syntax error: No opening parenthesis before unbalanced (")")  on input line 1
+#~
+history()
+#~
+enspar = read.table("enspar", header = T)
+#~error: Couldn't open file "enspar" for "r" (read): No such file or directory
+#~
+q()
+#~End session: Time: 1253247896; Process: 4575
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Fri Sep 18 13:25:12 2009
+#~
+history()
+#~
+enspar = read.table("out/enspar", header = T)
+#~
+cor(enspar$theta1, enspar$theta2)
+#~
+plot(enspar$theta1, enspar$theta2)
+#~
+history()
+#~
+enspar = read.table("enspar", header = T)
+#~error: Couldn't open file "enspar" for "r" (read): No such file or directory
+#~
+enspar = read.table("out/enspar", header = T)
+#~
+history()
+#~
+history()
+#~
+min(espar$theta2)
+#~error: Object "espar" not found
+#~
+min(enspar$theta2)
+#~
+min(enspar$theta1)
+#~
+enssig = read.table("out/enssig", header = T)
+#~error: number of labels inconsistent with number of fields
+#~
+.System("vi out/enssig")
+#~
+enssig = read.table("out/enssig", header = T)
+#~
+histogram(enssig$sigma1)
+#~
+histogram(enssig$sigma1, n = 10)
+#~
+histogram(enssig$sigma1, n = 20)
+#~
+histogram(enssig$sigma1, n = 50)
+#~
+q()
+#~End session: Time: 1253249662; Process: 4610
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Tue Oct 13 14:06:46 2009
+#~
+history()
+#~
+enssig = read.table("out/enssig", header = T)
+#~
+history()
+#~error: unequal length between x and y
+#~
+history()
+#~
+histogram(enssig$sigmaGrRate, n = 50)
+#~
+postscript("enshist.ps")
+#~
+history()
+#~
+dev.off()
+#~
+enspar = read.table("out/enspar", header = T)
+#~
+names(enspar)
+#~
+plot(enspar$theta1, enspar$theta2)
+#~
+history(theta1)
+#~
+history(plot)
+#~
+plot(enspar$theta1, enspar$theta2, xlim = c(0, max(enspar$theta1)))
+#~
+postscript("Exmm.par.eps")
+#~
+history()
+#~
+history()
+#~
+source("Exmm.q")
+#~
+history()
+#~
+Exmm.comp()
+#~error: Couldn't open file "/home/lan/MCMC/Exmm.AM/out/bestout" for "r" (read): No such file or directory
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~error: x and y arguments to points/lines have different lengths (0 and 1)
+#~
+history()
+#~
+history()
+#~error: x and y arguments to points/lines have different lengths (0 and 1)
+#~
+history()
+#~
+history()
+#~error: x and y arguments to points/lines have different lengths (0 and 1)
+#~
+traceback()
+#~
+source("Exmm.q")
+#~
+history()
+#~error: x and y arguments to points/lines have different lengths (0 and 1)
+#~
+history()
+#~
+history()
+#~
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+#~
+postscript("Exmm.bestmeanfit.eps")
+#~
+history()
+#~
+#~
+dev.off()
+#~
+history()
+#~
+history()
+#~
+Exmm.enslines()
+#~
+history()
+#~
+history()
+#~
+history(source)
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+postscript("Exmm.enslines.eps")
+#~
+history()
+#~
+#~error: statement with syntax error
+#~error: Syntax error: illegal ")" after "(" on input line 1 (line 100 overall)
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+Exmm.enspar()
+#~error: variable number of fields: 14, 4, 8, 7, 5
+#~
+history()
+#~
+history()
+#~error: No data to interpret as logical value
+#~
+traceback()
+#~
+"q history"()
+#~error: Couldn't find a function definition for "q history"
+#~
+#~error: statement with syntax error
+#~error: Syntax error: No opening parenthesis before unbalanced (")")  on input line 1 (line 114 overall)
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+postscript("Exmm.enspar.eps")
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar()
+#~
+history()
+#~
+#~error: statement with syntax error
+#~error: Syntax error: No opening parenthesis before unbalanced (")")  on input line 1 (line 163 overall)
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+enspar = read.table("out/enspar", header = T)
+#~
+names(enspar)
+#~
+histogram(enspar$theta1)
+#~
+histogram(enspar$theta2)
+#~
+source("Exmm.q")
+#~
+Exmm.histpar()
+#~
+Exmm.enspar()
+#~
+Exmm.histpar()
+#~
+history(source)
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar()
+#~
+history()
+#~
+history()
+#~
+postscript("hist.eps")
+#~
+history()
+#~
+dev.off()
+#~
+q()
+#~End session: Time: 1255414259; Process: 16881
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Tue Oct 13 15:11:07 2009
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar("theta1")
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar("theta1", 50)
+#~
+Exmm.histpar("theta1", 10)
+#~
+?histogram
+#~
+history()
+#~
+history(source)
+#~
+source("Exmm.q")
+#~
+history()
+#~
+names(enspar)
+#~
+histogram(enspar$theta1, nint = 10)
+#~
+histogram(enspar$theta1, nint = 50)
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar("theta1")
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar("theta2")
+#~
+source("Exmm.q")
+#~
+Exmm.histpar("theta1")
+#~error: variable number of fields: 7, 5
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+history()
+#~
+dev.off()
+#~
+history()
+#~
+source("Exmm.q")
+#~
+history()
+#~
+history()
+#~
+Exmm.histpar("logL")
+#~error: unequal length between x and y
+#~
+Exmm.histpar("LogL")
+#~
+#~error: statement with syntax error
+#~error: Syntax error: No opening parenthesis before unbalanced (")")  on input line 1 (line 82 overall)
+#~
+history()
+#~
+history()
+#~
+q()
+#~End session: Time: 1255415458; Process: 18950
+#~New session: Version: S Wed May  2 11:04:11 PDT 2007, Time: Tue Oct 13 15:31:04 2009
+#~
+history()
+#~
+#~error: statement with syntax error
+#~error: Syntax error: No opening parenthesis before unbalanced (")")  on input line 1 (line 3 overall)
+#~
+postscript("LogL.eps")
+#~
+history()
+#~
+history()
+#~
+postscript("theta1.eps")
+#~
+history()
+#~
+history()
+#~
+postscript("theta2.eps")
+#~
+history()
+#~
+Exmm.histpar("theta2")
+#~
+history()
+#~
+history()
+#~
+q()
+#~End session: Time: 1255416071; Process: 19508

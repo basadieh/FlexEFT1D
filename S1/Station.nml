@@ -1,0 +1,9 @@
+&station
+  Stn='S1',
+/
+
+&MCMCrun
+   nruns   = 20,
+   BurnInt = 3, ! number of runs for initial 'Burn-in'
+   EnsLen  = 2, 
+/

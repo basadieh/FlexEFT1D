@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 14:19:28 2016
+        MODULE TIME_INTERP__genmod
+          INTERFACE 
+            SUBROUTINE TIME_INTERP(TIME,N,NROW,OBS_TIME,OBS_DATA,       &
+     &MOD_DATA)
+              INTEGER(KIND=4), INTENT(IN) :: NROW
+              INTEGER(KIND=4), INTENT(IN) :: N
+              INTEGER(KIND=4), INTENT(IN) :: TIME
+              REAL(KIND=8), INTENT(IN) :: OBS_TIME(N)
+              REAL(KIND=8), INTENT(IN) :: OBS_DATA(NROW,N)
+              REAL(KIND=8), INTENT(OUT) :: MOD_DATA(NROW)
+            END SUBROUTINE TIME_INTERP
+          END INTERFACE 
+        END MODULE TIME_INTERP__genmod
